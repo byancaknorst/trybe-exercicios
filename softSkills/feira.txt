@@ -1,0 +1,13 @@
+Fazer a lista do que precisa ser comprado
+Trocar de roupa e vestir o calçado
+Pegar dinheiro e documentos
+Pegar saloca retornavel
+Fechar a casa
+Verificar localização
+Se a feira for perto - caminhar até lá
+	Se for atravessar a rua - olhar para a esquerda e para a direita
+				Se tiver carro vindo - Esperar carro passar
+				Se semaforo vermelho - Aguardar sinal verde
+				Senão - Atravessar			
+senão - chamar um uber
+
