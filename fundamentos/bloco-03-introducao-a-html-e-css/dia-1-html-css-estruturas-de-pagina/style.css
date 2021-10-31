@@ -1,0 +1,32 @@
+body {
+    background-color: #ced4da;
+    text-align: center;
+    width: 80%;
+    font-family: monospace;
+    font-size: medium;
+}
+
+h1 {
+    color: #212529;
+}
+
+h2 {
+    color: #343a40;
+}
+
+img {
+    width: 20%;
+}
+
+.paragrafos {
+    width: 80%;
+    font-family: sans-serif;
+    color: #495057;
+    margin-left: 160px;
+}
+
+.link {
+    color: #248277;
+    font-weight: 1000;
+    
+}
