@@ -1,5 +1,6 @@
 body {
-    background-color: #ced4da;
+    background-color: black;
+    padding: 3%;
     text-align: center;
     width: 80%;
     font-family: monospace;
@@ -7,26 +8,55 @@ body {
 }
 
 h1 {
+    text-align: center;
+    padding-left: 40px;
     color: #212529;
+    background-color: #ced4da;
 }
 
 h2 {
     color: #343a40;
+    background-color: #ced4da;
 }
 
 img {
     width: 20%;
+    margin-left: 40%;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+
+.apresentacaoPipi {
+    text-align: center;
+    padding: 2%;
 }
 
 .paragrafos {
-    width: 80%;
+    text-align: left;
     font-family: sans-serif;
     color: #495057;
-    margin-left: 160px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .link {
-    color: #248277;
-    font-weight: 1000;
+    color: #eddcd2;
+    font-weight: 1000;   
+}
+
+.tchau {
+    color: whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 20%;
     
 }
+
+.fotoBya {
+    float: left;
+    margin-left: 0;
+}
+
