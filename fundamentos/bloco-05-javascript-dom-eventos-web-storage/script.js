@@ -23,13 +23,12 @@ function newH(text){
 }
 newH('Exercício 5.1 - JavaScript');
 
-// function upperAll(tag){
-//   let tagPU = document.getElementsByTagName('p')[0];
-//   console.log(tagPU);
-//   let tagUpper = tagPU.innerText.toUpperCase();
-//   tagPU.innerText = tagUpper;
-// }
-// upperAll('p');
+function upperAll(tag){
+  let tagPU = document.getElementsByTagName('p')[0];
+  let tagUpper = tagPU.innerText.toUpperCase();
+  tagPU.innerText = tagUpper;
+}
+upperAll('p');
 
 function cont(tag){
   let tagCont = document.getElementsByTagName('p');
