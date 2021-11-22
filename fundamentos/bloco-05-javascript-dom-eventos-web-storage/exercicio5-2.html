@@ -56,8 +56,45 @@
   </style>
 </head>
 <body>
-  <script src="script5-2.js">
+  <script>
     // COLOQUE SEU CÓDIGO AQUI
+    // Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body ;
+    const titulo = document.createElement('h1');
+    titulo.innerText = "Exercício 5.2 - JavaScript DOM";
+    document.body.appendChild(titulo);
+    // Adicione a tag main com a classe main-content como filho da tag body ;
+    let main = document.createElement('main');
+    document.body.appendChild(main);
+    main.className = 'main-content';
+    //Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+    let sect = document.createElement('section');
+    main.appendChild(sect);
+    sect.className = 'center-content';
+    //Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+    let tagP = document.createElement('p');
+    sect.appendChild(tagP);
+    tagP.innerText = 'textotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotextotexto';
+    //Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+    let sect2 = document.createElement('section');
+    main.appendChild(sect2);
+    sect2.className = 'left-content';
+    //Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+    let sect3 = document.createElement('section');
+    main.appendChild(sect3);
+    sect3.className = 'right-content';
+    //Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do section criado no passo 5;
+    let img1 = document.createElement('img');
+    img1.className = 'small-image';
+    img1.src = 'https://picsum.photos/200';
+    sect2.appendChild(img1);
+    //Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+    let list = document.createElement('ul');
+    let contList = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+    for (let i = 0; i < contList.length; i +=1){
+      let itemList = contList[i];
+
+    }
+    //Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
   </script>
 </body>
 </html>
