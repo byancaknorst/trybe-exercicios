@@ -20,15 +20,22 @@
       <label for="cidade">Cidade: </label>
         <input type="text" name="cidade" id="cidade" maxlength="28" required>
       <label for="estado">Selecione o estado: </label>
-        <select name="estado" id="estado" value="" required>Selecione o estado</select>
+        <select name="estado" id="slEstados" value="" required>Selecione o estado</select>
       <label for="tipo">Tipo: </label>
       <input type="radio" name="Casa" id="tipo" required>Casa
       <input type="radio" name="apartamento" id="tipo">Apartamento
     </fieldset>
     <fieldset>
       <label for="resumo" >Resumo do curriculo</label>
-      <textarea name="resumo" id="resumo" cols="20" rows="10"></textarea>
+      <textarea name="resumo" id="resumo" cols="40" rows="10" maxlength="1000" required></textarea>
+      <label for="cargo">Cargo</label>
+      <input type="text" name="cargo" id="cargo" maxlength="40" required>
+      <label for="descCargo">Descrição do cargo</label>
+      <input type="text" name="descCargo" id="descCargo" maxlength="500" required>
+      <label>Data de inicio</label>
+      <input type="date" name="dataInicio" id="dataInicio" max="2021-11-30" required>
     </fieldset>
+    <button type="submit">Enviar</button>
   </form>
   <script src="script.js"></script>
 </body>
