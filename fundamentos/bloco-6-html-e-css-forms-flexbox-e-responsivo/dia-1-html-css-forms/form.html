@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio bloco 6</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <label for="name">Nome: </label>
+        <input type="text" name="name" id="name" placeholder="Digite o seu nome" maxlength="40" required>
+      <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" placeholder="mariazinha@hotmail.com" maxlength="50" required>
+      <label for="cpf">CPF: </label>
+        <input type="number" name="cpf" id="cpf" maxlength="11" required>
+      <label for="end">Endereço: </label>
+        <input type="text" name="endereco" id="end" maxlength="200" required>
+      <label for="cidade">Cidade: </label>
+        <input type="text" name="cidade" id="cidade" maxlength="28" required>
+      <label for="estado">Selecione o estado: </label>
+        <select name="estado" id="slEstados" value="" required>Selecione o estado</select>
+      <label for="tipo">Tipo: </label>
+      <input type="radio" name="Casa" id="tipo" required>Casa
+      <input type="radio" name="apartamento" id="tipo">Apartamento
+    </fieldset>
+    <fieldset>
+      <label for="resumo" >Resumo do curriculo</label>
+      <textarea name="resumo" id="resumo" cols="40" rows="10" maxlength="1000" required></textarea>
+      <label for="cargo">Cargo</label>
+      <input type="text" name="cargo" id="cargo" maxlength="40" required>
+      <label for="descCargo">Descrição do cargo</label>
+      <input type="text" name="descCargo" id="descCargo" maxlength="500" required>
+      <label>Data de inicio</label>
+      <input type="date" name="dataInicio" id="dataInicio" max="2021-11-30" required>
+    </fieldset>
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
